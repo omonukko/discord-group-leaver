@@ -18,4 +18,4 @@ async def on_ready():
     print(f"合計 {count} 個のグループDMから退出しました。")
     await client.close()
 
-client.run()
+client.run(token)
